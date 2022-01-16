@@ -1,7 +1,15 @@
+ """
+    Import of all libraries and functions not contained in the default
+
+
 import time
 import math
 import pandas as pd
 import numpy as np
+
+ """
+    Cities and month to choose from
+
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
